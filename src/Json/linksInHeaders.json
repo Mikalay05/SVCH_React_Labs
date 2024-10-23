@@ -1,0 +1,18 @@
+[
+    {
+        "nameLinks": "Sign In",
+        "pathLink": "/authorization"
+    },
+    {
+        "nameLinks": "Product Support",
+        "pathLink": "/product-support"
+    },
+    {
+        "nameLinks": "Company",
+        "pathLink": "/company"
+    },
+    {
+        "nameLinks": "Contact us",
+        "pathLink": "/contact-us"
+    }
+]
