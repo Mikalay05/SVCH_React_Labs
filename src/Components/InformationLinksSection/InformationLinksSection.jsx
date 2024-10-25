@@ -47,7 +47,7 @@ export default function InformationLinksSection() {
             <ul className="links-button">
                 {resultLinksButton}
             </ul>
-            <li><ButtonLink text="кнопка" bc=' rgba(23, 73, 77, 1)' /></li>
+            <li><ButtonLink text="Get started" bc=' rgba(23, 73, 77, 1)' /></li>
         </div>
     )   
 }
