@@ -5,7 +5,7 @@ export default function ListUL({children}) {
         <ul>
             {React.Children.map(children, (child) => {
                 return (
-                    <li>{childr}</li>
+                    <li>{child}</li>
                 )
             })}
         </ul>

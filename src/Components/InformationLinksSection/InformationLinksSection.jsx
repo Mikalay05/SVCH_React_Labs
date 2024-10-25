@@ -4,6 +4,9 @@ import './InformationLinksSection.css'
 
 import ImgLink from "../ImgLink/ImgLink";
 import ButtonLink from "../ButtonLink/ButtonLink";
+import ItemListLI from "../ItemListLI/ItemListLI";
+import ListUL from '../ListUL/ListUL'
+
 
 // import LinksButton from '../../Json/linksButtonInHeader.json'
 
@@ -46,8 +49,9 @@ export default function InformationLinksSection() {
             <ImgLink idImg="LogoId" pathImg='/Img/logo-zendesk.png' />
             <ul className="links-button">
                 {resultLinksButton}
-            </ul>
+
             <li><ButtonLink text="Get started" bc=' rgba(23, 73, 77, 1)' /></li>
+            </ul>
         </div>
     )   
 }
