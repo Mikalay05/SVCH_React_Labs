@@ -21,3 +21,7 @@
 13. TableBody (TableAboutGramma) - тело таблицы для MaterialUI
 14. TableRow(TableAboutGramma) - строка в таблице
 15. TableCell(TableAboutGramma) - ячейка таблицы
+16. Dialog(Header) - создает диалог
+17. DialogTitle(Header) - заголовок диалога
+18. DialogContent (Header) - соддержимое диалога
+19. DialogActions(Header) - контейнер для компонентов событий (закрытие, сохранение и тд)
