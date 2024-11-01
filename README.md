@@ -16,3 +16,8 @@
 8. IconButton (Header)- кнопка в виде иконки
 9. MenuIcon (Header) - набор иконок
 10. Button (NotFoundPage) - готовый компонент кнопки
+11. Table (TableAboutGramma) - таблица с стилистикой MaterialUI
+12. TableHead (TableAboutGramma) - заголовок таблицы для MaterialUI
+13. TableBody (TableAboutGramma) - тело таблицы для MaterialUI
+14. TableRow(TableAboutGramma) - строка в таблице
+15. TableCell(TableAboutGramma) - ячейка таблицы
