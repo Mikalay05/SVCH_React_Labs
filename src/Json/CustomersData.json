@@ -1,0 +1,14 @@
+[
+    {
+        "CustomerId": 0,
+        "CustomerName": "Разработчик"
+    },
+    {
+        "CustomerId": 1,
+        "CustomerName": "Руководитель проекта"
+    },
+    {
+        "CustomerId": 2,
+        "CustomerName": "Разработчик"
+    }
+]

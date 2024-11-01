@@ -1,0 +1,52 @@
+[
+    {
+        "EpicId": 0,
+        "EpicName": "Epic Alpha",
+        "CustomerId": 1
+    },
+    {
+        "EpicId": 1,
+        "EpicName": "Epic Bravo",
+        "CustomerId": 0
+    },
+    {
+        "EpicId": 2,
+        "EpicName": "Epic Charlie",
+        "CustomerId": 1
+    },
+    {
+        "EpicId": 3,
+        "EpicName": "Epic Delta",
+        "CustomerId": 0
+    },
+    {
+        "EpicId": 4,
+        "EpicName": "Epic Echo",
+        "CustomerId": 1
+    },
+    {
+        "EpicId": 5,
+        "EpicName": "Epic Foxtrot",
+        "CustomerId": 0
+    },
+    {
+        "EpicId": 6,
+        "EpicName": "Epic Golf",
+        "CustomerId": 1
+    },
+    {
+        "EpicId": 7,
+        "EpicName": "Epic Hotel",
+        "CustomerId": 0
+    },
+    {
+        "EpicId": 8,
+        "EpicName": "Epic India",
+        "CustomerId": 1
+    },
+    {
+        "EpicId": 9,
+        "EpicName": "Epic Juliet",
+        "CustomerId": 0
+    }
+]

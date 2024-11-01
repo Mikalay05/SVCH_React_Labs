@@ -1,31 +1,29 @@
 import * as React from "react";
 
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
 
 import NotFoundPage from "./Components/NotFoundPage/NotFoundPage";
 import Header from "./Components/Header/Header";
 import TableAboutGramma from "./Components/TableAboutGramma/TableAboutGramma";
+import SliderUSM from "./Components/SliderUSM/SliderUSM";
 
 export default function Add() {
   return (
     <>
-    <Header/>
+      <Header />
       <Routes>
-          <Route
-            path="*"
-            element={
-              <NotFoundPage/>
-            }
-          />
-          <Route
+        <Route
           path="product-support"
           element={
             <>
-            <TableAboutGramma/>
+              <TableAboutGramma />
             </>
-          }/>
-        </Routes>
-
+          }
+        />
+        <Route path="company" element={<>
+          <SliderUSM/></>} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
     </>
   );
 }
