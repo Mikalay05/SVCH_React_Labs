@@ -13,8 +13,8 @@ export default function NotFoundPage() {
   return (
     <Container sx={{ textAlign: "center", mt: 10 }}>
       <Box>
-        <ErrorOutlineIcon sx={{ fontSize: "100px", color: "primary.main" }} />
-        <Typography variant="h1" component="h1" sx={{ mt: 2 }}>
+        <ErrorOutlineIcon sx={{ fontSize: "140px", color: "primary.main" }} />
+        <Typography variant="h1" component="h4" sx={{ mt: 2 }}>
           Упс! Страницу которую вы ищете, не существует!
         </Typography>
         <Button

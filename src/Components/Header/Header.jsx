@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <AppBar position="static">
-      <Toolbar style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+      <Toolbar style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: 0}}>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           MaterialUI
         </Typography>
