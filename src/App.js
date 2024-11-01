@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom"
 
 import NotFoundPage from "./Components/NotFoundPage/NotFoundPage";
 import Header from "./Components/Header/Header";
+import TableAboutGramma from "./Components/TableAboutGramma/TableAboutGramma";
 
 export default function Add() {
   return (
@@ -16,6 +17,13 @@ export default function Add() {
               <NotFoundPage/>
             }
           />
+          <Route
+          path="product-support"
+          element={
+            <>
+            <TableAboutGramma/>
+            </>
+          }/>
         </Routes>
 
     </>
