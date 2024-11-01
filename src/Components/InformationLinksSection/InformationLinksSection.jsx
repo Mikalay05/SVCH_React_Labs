@@ -1,57 +1,60 @@
 import React from "react";
 
-import './InformationLinksSection.css'
+import "./InformationLinksSection.css";
 
 import ImgLink from "../ImgLink/ImgLink";
 import ButtonLink from "../ButtonLink/ButtonLink";
-import ItemListLI from "../ItemListLI/ItemListLI";
-import ListUL from '../ListUL/ListUL'
-
+import ItemListLinkLI from "../ItemListLI/ItemListLinkLI";
+import ListUL from "../ListUL/ListUL";
 
 // import LinksButton from '../../Json/linksButtonInHeader.json'
 
 export default function InformationLinksSection() {
+  const data = [
+    {
+      name: "Pricing",
+      link: "",
+    },
+    {
+      name: "Solutions",
+      link: "",
+    },
+    {
+      name: "Demo ",
+      link: "",
+    },
+    {
+      name: "Products",
+      link: "",
+    },
+    {
+      name: "Services",
+      link: "",
+    },
+    {
+      name: "Resources",
+      link: "",
+    },
+  ];
 
-    const data = [
-        {
-            name: 'Pricing',
-            link: ''
-        },
-        {
-            name: 'Solutions',
-            link: ''
-        },        {
-            name: 'Demo ',
-            link: ''
-        },        {
-            name: 'Products',
-            link: ''
-        },        {
-            name: 'Services',
-            link: ''
-        },        {
-            name: 'Resources',
-            link: ''
-        }
-    ]
-
-    const resultLinksButton = data.map((element, index) => {
-        return (
-            <li key={index} className="link-button">
-                <a className="content-link" href={element.link}>{element.name}</a>
-            </li>
-        )
-    })
-
+  const resultLinksButton = data.map((element, index) => {
     return (
-        <div className="content-nav-div">
+      <ItemListLinkLI
+        key={index}
+        className="content-link"
+        text={element.name}
+        link={element.link}
+      />
+    );
+  });
 
-            <ImgLink idImg="LogoId" pathImg='/Img/logo-zendesk.png' />
-            <ul className="links-button">
-                {resultLinksButton}
-
-            <li><ButtonLink text="Get started" bc=' rgba(23, 73, 77, 1)' /></li>
-            </ul>
-        </div>
-    )   
+  return (
+    <div className="content-nav-div">
+      <ImgLink idImg="LogoId" pathImg="/Img/logo-zendesk.png" w="50px" h="50px"/>
+      <ListUL className="links-button">
+        {resultLinksButton}
+        <ButtonLink text="Get started" bc=" rgba(23, 73, 77, 1)" />
+      </ListUL>
+    </div>
+  );
 }

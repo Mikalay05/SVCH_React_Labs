@@ -1,9 +1,4 @@
-.content-links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12px;
-}
+
 .stylesLink {
     color: #03363D;
     text-align: center;
