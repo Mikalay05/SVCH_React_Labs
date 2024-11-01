@@ -9,5 +9,9 @@
 1. Container
 2. Box
 3. ErrorOutlineIcon
-4. Typography
-5. AppBar - header компонент
+4. Typography (Header) - текст в соответсвии рекоменлации Material
+5. AppBar (Header) - header компонент
+6. Drawer (BM) - меню для навигации
+7. Toolbar (Header) - контейнер
+8. IconButton (Header)- кнопка в виде иконки
+9. MenuIcon (Header) - набор иконок
