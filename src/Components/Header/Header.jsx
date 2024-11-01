@@ -38,11 +38,6 @@ export default function Header() {
       </Toolbar>
       <BM open={drawerOpen} onClose={toggleDrawer}>
         <NavSection flexDirection='c'/>
-        <p>я гей</p>
-        <p>я гей</p>
-        <p>я гей</p>
-        <p>я гей</p>
-
       </BM>
     </AppBar>
   );
